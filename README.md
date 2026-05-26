@@ -1,80 +1,202 @@
-# 🧭 TripTracker
+# ✈️ Trip Tracker
 
 A modern mobile trip management and tracking application built using React Native and Expo. TripTracker helps users organize trips, monitor travel activities, and manage travel-related information through a clean and intuitive mobile interface.
+
+Trip Tracker helps groups and solo travelers manage:
+- 💸 Expenses
+- 📊 Analytics
+- 🧳 Packing Lists
+- 🗓️ Itineraries
+- 👥 Trip Members
+- 🤝 Expense Splitting
+- ☁️ Real-time Syncing
+
+Designed with a modern UI and real-time collaboration features for smooth trip planning and management.
 
 ---
 
 ## 🚀 Features
 
-- 📍 Trip tracking and management
-- 🗺️ Real-time travel activity monitoring
-- 📱 Clean and responsive mobile interface
-- 🌙 Dark mode optimized UI
-- ⚡ Fast and lightweight Expo application
-- 📂 Organized trip data handling
-- 🔐 Secure mobile application architecture
+### 💰 Smart Expense Tracking
+- Add and manage travel expenses
+- Categorized expense management
+- UPI / Cash expense modes
+- Personal & shared expense tracking
+- Real-time balance calculations
+
+### 👥 Group Expense Splitting
+- Split expenses among trip members
+- Track who paid and who owes
+- Personal and group expense modes
+- Automatic expense summaries
+
+### 📊 Analytics Dashboard
+- Expense distribution visualization
+- Category-wise spending insights
+- Bar graph analytics
+- Export trip reports
+
+### 🗓️ Trip Itinerary Planner
+- Day-wise planning system
+- Timeline-style itinerary UI
+- Add activities with date & time
+- Collaborative itinerary planning
+
+### 🧳 Smart Packing List
+- Shared packing checklist
+- Claim items among members
+- Mark items as packed
+- Real-time synced updates
+
+### ☁️ Firebase Integration
+- Real-time cloud syncing
+- Authentication support
+- Live collaboration
+- Persistent trip data storage
+
+### 🎨 Modern Mobile UI
+- Beautiful dark-themed interface
+- Smooth animations
+- Responsive layouts
+- Optimized for Android devices
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - React Native
 - Expo
+- Firebase Firestore
+- Firebase Authentication
 - JavaScript
-- Expo EAS Build
-- Mobile-first UI Design
+- AsyncStorage
+- React Native Components
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```bash
-TripTracker/
+```plaintext
+TripTracker
+│── assets
+│   └── screenshots
+│       ├── Analytics.jpg
+│       ├── Chat.jpg
+│       ├── Dashboard.jpg
+│       ├── ExpenseMode.jpg
+│       ├── HamburgerMenu.jpg
+│       ├── Itenerary.jpg
+│       ├── PackingList.jpg
+│       ├── PersonalSplit.jpg
+│       └── TripMates.jpg
 │
-├── .expo/
-├── assets/
-├── node_modules/
-│
-├── App.js
-├── app.json
-├── eas.json
-├── index.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-│
-└── README.md
+│── App.js
+│── app.json
+│── eas.json
+│── index.js
+│── package.json
+│── package-lock.json
+│── .gitignore
+│── README.md
 ```
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Dashboard
+
+<p align="center">
+  <img src="assets/screenshots/Dashboard.jpg" width="260"/>
+</p>
+
+---
+
+## 💸 Expense Management
+
+<p align="center">
+  <img src="assets/screenshots/ExpenseMode.jpg" width="260"/>
+</p>
+
+---
+
+## 👥 Trip Mates
+
+<p align="center">
+  <img src="assets/screenshots/TripMates.jpg" width="260"/>
+</p>
+
+---
+
+## 📊 Analytics
+
+<p align="center">
+  <img src="assets/screenshots/Analytics.jpg" width="260"/>
+</p>
+
+---
+
+## 🧳 Packing List
+
+<p align="center">
+  <img src="assets/screenshots/PackingList.jpg" width="260"/>
+</p>
+
+---
+
+## 🗓️ Itinerary Planner
+
+<p align="center">
+  <img src="assets/screenshots/Itenerary.jpg" width="260"/>
+</p>
+
+---
+
+## 🤝 Personal Split
+
+<p align="center">
+  <img src="assets/screenshots/PersonalSplit.jpg" width="260"/>
+</p>
+
+---
+
+## 💬 Chat & Collaboration
+
+<p align="center">
+  <img src="assets/screenshots/Chat.jpg" width="260"/>
+</p>
+
+---
+
+## ☰ Navigation Menu
+
+<p align="center">
+  <img src="assets/screenshots/HamburgerMenu.jpg" width="260"/>
+</p>
 
 ---
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/TripTracker.git
 ```
 
----
-
-### 2️⃣ Navigate to Project Folder
+Navigate into the project folder:
 
 ```bash
 cd TripTracker
 ```
 
----
-
-### 3️⃣ Install Dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
----
-
-### 4️⃣ Start Expo Development Server
+Run the Expo app:
 
 ```bash
 npx expo start
@@ -82,93 +204,46 @@ npx expo start
 
 ---
 
-## 📱 Application Details
+## ☁️ Firebase Setup
 
-### 📌 App Information
+Create a Firebase project and enable:
+- Authentication
+- Firestore Database
 
-- **Application Name:** Trip Tracker
-- **Platform:** Android / iOS
-- **Framework:** Expo
-- **Orientation:** Portrait Mode
-- **Theme:** Dark UI
+Add your Firebase configuration inside the project.
 
 ---
 
-## 🧩 Expo Configuration
+## 🎯 Core Modules
 
-Configured using:
-
-```json
-{
-  "expo": {
-    "name": "Trip Tracker",
-    "slug": "goa-trip-final",
-    "version": "1.0.0"
-  }
-}
-```
+- Expense Tracking System
+- Split Expense Manager
+- Trip Itinerary Planner
+- Packing Checklist
+- Analytics Dashboard
+- Real-Time Firebase Sync
+- Group Collaboration Features
 
 ---
 
-## 📸 Screenshots
+## 📱 Screens Included
 
-Create a screenshots folder:
-
-```bash
-assets/screenshots/
-```
-
-Add screenshots like:
-
-```bash
-assets/screenshots/home.jpg
-assets/screenshots/trips.jpg
-assets/screenshots/map.jpg
-```
-
-Example README image usage:
-
-```html
-<p align="center">
-  <img src="assets/screenshots/home.jpg" width="300"/>
-</p>
-```
+- Dashboard Overview
+- Expense Mode
+- Group Members
+- Analytics Dashboard
+- Packing Checklist
+- Itinerary Planner
+- Personal Expense Split
+- Chat System
+- Navigation Menu
 
 ---
 
-## 🌟 Future Improvements
+## 📄 License
 
-- Live GPS integration
-- Route optimization
-- Expense tracking
-- Offline trip saving
-- Travel analytics dashboard
-- Cloud synchronization
-- Group trip management
+Developed and maintained by the Trip Tracker Team.
 
----
+This project is intended for academic and educational purposes only.
 
-## 👨‍💻 Developed By
-
-### TripTracker Team
-
-- Dilip Gowda A N
-
----
-
-## 🌍 Project Purpose
-
-TripTracker was developed for:
-
-- Mobile application development learning
-- Travel activity management
-- React Native and Expo practice
-- Academic and personal projects
-
----
-
-# 📄 License
-
-Developed and maintained by the TripTracker Team.
-
-All rights reserved. This project is intended for academic and educational purposes only.
+All rights reserved.
