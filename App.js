@@ -61,7 +61,7 @@ import {
 
 // --- FIREBASE CONFIGURATION ---
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {
-  apiKey: "AIzaSyCzUiV4zL0ME9Y2LFCMMd68BEV4rPZddvw",
+  apiKey: "API_KEY",
   authDomain: "tripplan18.firebaseapp.com",
   projectId: "tripplan18",
   storageBucket: "tripplan18.firebasestorage.app",
