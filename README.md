@@ -181,7 +181,7 @@ TripTracker
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/TripTracker.git
+git clone https://github.com/dilipgowdaan/TripTracker.git
 ```
 
 Navigate into the project folder:
@@ -242,8 +242,6 @@ Add your Firebase configuration inside the project.
 
 ## 📄 License
 
-Developed and maintained by the Trip Tracker Team.
+Developed and maintained by the Trip Tracker Team, as a Hobby Project for personal use.
 
-This project is intended for academic and educational purposes only.
-
-All rights reserved.
+This project is intended for academic and educational purposes only. All rights reserved.
